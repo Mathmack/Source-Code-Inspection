@@ -46,7 +46,6 @@ public class TicketMachineTest {
         TicketMachine tm=new TicketMachine(100);
         tm.inserir(10);
         assertEquals(10, tm.getSaldo());
-        // TODO review the generated test code and remove the default call to fail.
     }
 
     /**
