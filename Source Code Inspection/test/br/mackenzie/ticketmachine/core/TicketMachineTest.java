@@ -55,10 +55,10 @@ public class TicketMachineTest {
     @Test
     public void testImprimir() throws Exception {
         System.out.println("============Imprimir============");
-        TicketMachine tm = new TicketMachine(200);
+        TicketMachine tm = new TicketMachine(50);
         tm.inserir(100);
         String expResult = "*****************\n"
-                + "*** R$100,00 ****\n"
+                + "*** R$ 100,00 ****\n"
                 + "*****************\n";
         String result = tm.imprimir();
         assertEquals(expResult, result);
